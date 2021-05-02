@@ -1,4 +1,8 @@
 .home {
+  background-color: #eaeded;
   position: relative;
-  padding-top: 240px;
+  &.page {
+    padding-top: 252px;
+    padding-bottom: 48px;
+  }
 }
