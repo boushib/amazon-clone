@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #eaeded;
+  overflow-x: hidden;
+}
+
 .page {
   min-height: 100vh;
   margin-top: 60px;

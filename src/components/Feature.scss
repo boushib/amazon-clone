@@ -1,0 +1,23 @@
+.feature {
+  width: 160px;
+  margin: 0 20px;
+  text-align: center;
+  &__image {
+    width: 136px;
+    height: 136px;
+    background-color: #fbfbfb;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 16px;
+    img {
+      width: 44px;
+    }
+  }
+  &__title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #3e3e3c;
+  }
+}
