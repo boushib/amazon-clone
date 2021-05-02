@@ -103,7 +103,7 @@ const Footer: React.FC = () => {
       <hr />
       <div className="container">
         <div className="footer__copy">
-          &copy; {currentYear} Amazon | All rights reserved
+          &copy; 1996-{currentYear}, Amazon.com, Inc. or its affiliates
         </div>
       </div>
     </footer>
