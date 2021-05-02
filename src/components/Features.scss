@@ -3,8 +3,7 @@
   margin-bottom: 20px;
   background-color: #fff;
   border-radius: 4px;
-  max-width: 1500px;
-  margin: 0 24px 20px;
+  margin-bottom: 20px;
   h2 {
     font-size: 22px;
     color: #3e3e3c;
@@ -15,11 +14,5 @@
   &__grid {
     display: flex;
     margin: 20px -20px 0;
-  }
-}
-
-@media (min-width: 1548px) {
-  .features {
-    margin: 0 auto 20px;
   }
 }
