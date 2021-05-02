@@ -63,3 +63,49 @@ export const FEATURES = [
       'https://firebasestorage.googleapis.com/v0/b/clone-7c11f.appspot.com/o/icons%2Fcontact_support.svg?alt=media',
   },
 ]
+
+export const SUGGESTIONS_BASED_ON_BROWSING_HISTORY = [
+  {
+    id: '8feeadb1-a8f7-4368-8b92-15b4e28b4322',
+    imageURL: 'https://m.media-amazon.com/images/I/61HRnUdvv6L._AC_SY400_.jpg',
+  },
+  {
+    id: '140b92fc-faa2-4920-ba5e-a1abf040978f',
+    imageURL: 'https://m.media-amazon.com/images/I/61E16+hUzQL._AC_SY400_.jpg',
+  },
+  {
+    id: 'f22df327-9e7f-4776-bdbf-9064c3ed1448',
+    imageURL: 'https://m.media-amazon.com/images/I/81VfdsWEk5L._AC_SY400_.jpg',
+  },
+  {
+    id: 'dc7bb32a-5875-4064-96df-ec0eff920661',
+    imageURL: 'https://m.media-amazon.com/images/I/81C1DGnCNsL._AC_SY400_.jpg',
+  },
+  {
+    id: '3054e287-811a-4e7d-9c02-94010c6c8458',
+    imageURL: 'https://m.media-amazon.com/images/I/71qkT6Ucz7L._AC_SY400_.jpg',
+  },
+]
+
+export const SUGGESTIONS_BASED_ON_SHOPPING_TRENDS = [
+  {
+    id: '3d950c43-e3db-4a70-9704-b031f1ad2e31',
+    imageURL: 'https://m.media-amazon.com/images/I/71vXweqjv+L._AC_SY400_.jpg',
+  },
+  {
+    id: 'd819d6a8-5c7a-4324-bf04-7e93f277582f',
+    imageURL: 'https://m.media-amazon.com/images/I/71Q5sdPHD-L._AC_SY400_.jpg',
+  },
+  {
+    id: '6aa64677-9477-44ab-b096-52a6eff470cb',
+    imageURL: 'https://m.media-amazon.com/images/I/91JA5-hAnoL._AC_SY400_.jpg',
+  },
+  {
+    id: '9db92b71-e584-430a-a292-8cbe56d95458',
+    imageURL: 'https://m.media-amazon.com/images/I/71Czt9ypIbL._AC_SY400_.jpg',
+  },
+  {
+    id: '6465baef-c2f2-4f0a-8dfa-f3b877376dfa',
+    imageURL: 'https://m.media-amazon.com/images/I/71Kkm5nIRKL._AC_SY400_.jpg',
+  },
+]
