@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import SearchIcon from '../icons/Search'
 import ShoppingCartIcon from '../icons/ShoppingCart'
 
@@ -8,7 +9,9 @@ import './Navbar.scss'
 const Navbar: React.FC = () => {
   return (
     <nav className="nav">
-      <img className="nav__brand" src={Logo} alt="" />
+      <Link to="/">
+        <img className="nav__brand" src={Logo} alt="" />
+      </Link>
       <div className="nav__search">
         <input
           type="text"
@@ -21,16 +24,22 @@ const Navbar: React.FC = () => {
       </div>
       <div className="nav__links">
         <div className="nav__link">
-          <span className="nav__linkLineOne">Hello El</span>
-          <span className="nav__linkLineTwo">Account &amp; Lists</span>
+          <Link to="/login">
+            <span className="nav__linkLineOne">Hello, Sign In</span>
+            <span className="nav__linkLineTwo">Account &amp; Lists</span>
+          </Link>
         </div>
         <div className="nav__link">
-          <span className="nav__linkLineOne">Returns</span>
-          <span className="nav__linkLineTwo">&amp; Orders</span>
+          <Link to="/order-history">
+            <span className="nav__linkLineOne">Returns</span>
+            <span className="nav__linkLineTwo">&amp; Orders</span>
+          </Link>
         </div>
-        <div className="nav__cart">
-          <ShoppingCartIcon />
-        </div>
+        <Link to="/cart">
+          <div className="nav__cart">
+            <ShoppingCartIcon />
+          </div>
+        </Link>
       </div>
     </nav>
   )

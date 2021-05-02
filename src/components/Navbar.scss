@@ -10,10 +10,17 @@
   left: 0;
   width: 100%;
   z-index: 999;
+  a {
+    color: inherit;
+    &:hover {
+      text-decoration: none;
+    }
+  }
   &__brand {
     width: 98px;
     margin-top: 6px;
     margin-right: 54px;
+    cursor: pointer;
   }
   &__search {
     display: flex;
@@ -48,6 +55,7 @@
     margin-left: auto;
   }
   &__link {
+    cursor: pointer;
     span {
       display: block;
       margin-right: 24px;
