@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import SearchIcon from '../icons/Search'
 import ShoppingCartIcon from '../icons/ShoppingCart'
 
-import Logo from '../assets/images/logo.svg'
+import Logo from '../assets/images/logo_white.svg'
 
 import './Navbar.scss'
 
