@@ -1,5 +1,5 @@
+import { Link } from 'react-router-dom'
 import Logo from '../assets/images/logo_black.svg'
-
 import './Login.scss'
 
 const Login: React.FC = () => {
@@ -15,8 +15,7 @@ const Login: React.FC = () => {
             <button className="btn">Continue</button>
             <div className="login__legal">
               By continuing, you agree to Amazon's{' '}
-              <a href="#">Conditions of Use</a>
-              and
+              <a href="#">Conditions of Use</a> and{' '}
               <a href="#">Privacy Notice</a>.
             </div>
             <a className="login__help">Need help?</a>
@@ -24,7 +23,11 @@ const Login: React.FC = () => {
           <div className="login__sep">
             <span>New to Amazon?</span>
           </div>
-          <button className="btn secondary">Create your Amazon account</button>
+          <Link to="/register">
+            <button className="btn secondary">
+              Create your Amazon account
+            </button>
+          </Link>
         </div>
       </div>
     </div>
