@@ -6,7 +6,7 @@ const Cart: React.FC = () => (
       <div className="cart__products">
         <h1>Shopping Cart</h1>
         <hr />
-        <p>Your amazon cart is empty!</p>
+        {/* <p>Your amazon cart is empty!</p> */}
         <div className="cart__product">
           <img
             className="cart__product__image"
