@@ -7,6 +7,11 @@
 
 .env
 
+# firebase hosting
+.github
+firebase.json
+.firebaserc
+
 # testing
 /coverage
 
