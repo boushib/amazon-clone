@@ -27,14 +27,16 @@
     align-items: center;
     margin-right: 24px;
     &__input {
-      height: 36px;
-      border: none;
-      outline: none;
-      width: 400px;
-      padding: 0 18px;
-      line-height: 1;
-      border-radius: 4px 0 0 4px;
-      font-size: 15px;
+      height: 36px !important;
+      border: none !important;
+      outline: none !important;
+      width: 400px !important;
+      padding: 0 18px !important;
+      line-height: 1 !important;
+      border-radius: 4px 0 0 4px !important;
+      font-size: 15px !important;
+      margin-bottom: 0 !important;
+      box-shadow: none !important;
     }
     &__btn {
       border: none;

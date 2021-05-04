@@ -6,6 +6,7 @@ import Login from './views/Login'
 import Signup from './views/Signup'
 import Cart from './views/Cart'
 import OrderHistory from './views/OrderHistory'
+import Checkout from './views/Checkout'
 
 import './App.scss'
 
@@ -18,6 +19,7 @@ function App() {
         <Route path="/register" exact component={Signup} />
         <Route path="/cart" component={Cart} />
         <Route path="/order-history" exact component={OrderHistory} />
+        <Route path="/checkout" exact component={Checkout} />
         <Route path="/" exact component={Home} />
       </Switch>
       <Footer />

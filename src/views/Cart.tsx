@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './Cart.scss'
 
 const Cart: React.FC = () => (
@@ -35,7 +36,9 @@ const Cart: React.FC = () => (
         <div className="amount">
           Subtotal (1 item): <strong>$66.99</strong>
         </div>
-        <button className="btn">Proceed to checkout</button>
+        <Link to="/checkout">
+          <button className="btn">Proceed to checkout</button>
+        </Link>
       </div>
     </div>
   </div>
