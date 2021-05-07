@@ -37,6 +37,7 @@ const Navbar: React.FC = () => {
         </div>
         <Link to="/cart">
           <div className="nav__cart">
+            <div className="nav__cart__count">1</div>
             <ShoppingCartIcon />
           </div>
         </Link>

@@ -2,7 +2,10 @@ import { useState } from 'react'
 import './Checkout.scss'
 
 const Checkout: React.FC = () => {
-  const [currentStep, setCurrentStep] = useState(2)
+  const [currentStep, setCurrentStep] = useState(0)
+  const submitForm = () => {
+    console.log('Submitting form..')
+  }
   return (
     <div className="checkout page">
       <div className="container">
@@ -37,7 +40,9 @@ const Checkout: React.FC = () => {
               <input id="city" name="city" type="text" placeholder="City" />
               <input id="city" name="city" type="text" placeholder="State" />
               <input id="city" name="city" type="text" placeholder="ZIP Code" />
-              <button className="btn">Continue</button>
+              <button className="btn" onClick={() => setCurrentStep(1)}>
+                Continue
+              </button>
             </form>
           </div>
         )}
@@ -91,7 +96,11 @@ const Checkout: React.FC = () => {
               </div>
             </div>
             <hr />
-            <button style={{ width: 440 }} className="btn">
+            <button
+              style={{ width: 440 }}
+              className="btn"
+              onClick={() => setCurrentStep(2)}
+            >
               Continue
             </button>
           </div>
@@ -107,7 +116,9 @@ const Checkout: React.FC = () => {
               <input type="text" id="cardHolderName" />
               <label htmlFor="cardExpirationDate">Expiration date</label>
               <input type="text" id="cardExpirationDate" />
-              <button className="btn">Continue</button>
+              <button className="btn" onClick={submitForm}>
+                Continue
+              </button>
             </form>
           </div>
         )}
