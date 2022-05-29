@@ -1,5 +1,5 @@
 .nav
-  background-color: #131921
+  background-color: var(--color-dark)
   color: #fff
   height: 60px
   padding: 0 80px
@@ -27,7 +27,7 @@
     align-items: center
     margin-right: 24px
     &__input
-      height: 36px !important
+      height: 40px !important
       border: none !important
       outline: none !important
       width: 400px !important
@@ -41,14 +41,20 @@
     &__btn
       border: none
       outline: none
-      background-color: #febd68
+      background-color: var(--color-orange)
       display: flex
       align-items: center
       justify-content: center
-      height: 36px
+      height: 40px
+      width: 40px
       padding: 8px
       border-radius: 0 4px 4px 0
       cursor: pointer
+
+      svg
+        width: 18px
+        height: 18px
+        color: var(--color-dark)
 
   &__links
     display: flex
@@ -71,16 +77,22 @@
   &__cart
     cursor: pointer
     position: relative
+
+    svg
+      width: 24px
+      height: 24px
+
     &__count
       position: absolute
-      top: -3px
-      right: -3px
-      background-color: #f44336
-      font-size: 11px
-      font-weight: 500
-      height: 14px
-      width: 14px
-      border-radius: 7px
+      top: -5px
+      right: -5px
+      background-color: var(--color-orange)
+      color: var(--color-dark)
+      font-size: 10px
+      font-weight: 600
+      height: 16px
+      width: 16px
+      border-radius: 10px
       display: flex
       align-items: center
       justify-content: center

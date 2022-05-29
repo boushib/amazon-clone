@@ -29,38 +29,32 @@ export const FEATURES = [
   {
     id: '82f51475-ab52-4370-a4e7-0c094a2f7640',
     title: 'Shop in 8 different languages',
-    imageURL:
-      'https://firebasestorage.googleapis.com/v0/b/clone-7c11f.appspot.com/o/icons%2Flanguage.svg?alt=media',
+    icon: 'LANGUAGE',
   },
   {
     id: 'e26f1051-96f2-4db8-b1ca-cc1a074e9769',
     title: 'Shop in 60+ currencies',
-    imageURL:
-      'https://firebasestorage.googleapis.com/v0/b/clone-7c11f.appspot.com/o/icons%2Fshopping_basket.svg?alt=media',
+    icon: 'CURRENCY',
   },
   {
     id: '2fd8f3d0-d0eb-45c8-b588-7e6facd9eb6d',
     title: 'Secure Payments',
-    imageURL:
-      'https://firebasestorage.googleapis.com/v0/b/clone-7c11f.appspot.com/o/icons%2Fpayment.svg?alt=media',
+    icon: 'SECURE',
   },
   {
     id: 'b340e0fb-36f1-46e1-ae94-5f58ac6f7fc6',
     title: 'Estimated Import Fees',
-    imageURL:
-      'https://firebasestorage.googleapis.com/v0/b/clone-7c11f.appspot.com/o/icons%2Fsavings.svg?alt=media',
+    icon: 'SAVING',
   },
   {
     id: '200ddb4e-cbf3-495e-a08e-03e9e7720846',
     title: 'Track your Package',
-    imageURL:
-      'https://firebasestorage.googleapis.com/v0/b/clone-7c11f.appspot.com/o/icons%2Fpackage.svg?alt=media',
+    icon: 'LOCATION',
   },
   {
     id: 'c0ab8ed8-b341-4b72-b154-3f2d72449ab8',
     title: '24/7 Customer Service',
-    imageURL:
-      'https://firebasestorage.googleapis.com/v0/b/clone-7c11f.appspot.com/o/icons%2Fcontact_support.svg?alt=media',
+    icon: 'SUPPORT',
   },
 ]
 

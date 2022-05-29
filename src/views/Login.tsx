@@ -1,27 +1,26 @@
 import { Link } from 'react-router-dom'
 import Logo from '../components/Logo'
-import './Login.sass'
 
 const Login = () => (
-  <div className="login page">
+  <div className="auth page">
     <div className="container">
-      <div className="login__card">
+      <div className="auth__card">
         <Logo className="logo" />
-        <form className="login__form">
-          <h1>Sign-In</h1>
+        <form className="auth__form">
+          <h1>Login</h1>
           <label htmlFor="email">Email or mobile phone number</label>
           <input type="text" id="email" />
           <button className="btn">Continue</button>
-          <div className="login__legal">
+          <div className="auth__legal">
             By continuing, you agree to Amazon's{' '}
             <a href="##">Conditions of Use</a> and{' '}
             <a href="##">Privacy Notice</a>.
           </div>
-          <a href="##" className="login__help">
+          <a href="##" className="auth__help">
             Need help?
           </a>
         </form>
-        <div className="login__sep">
+        <div className="auth__sep">
           <span>New to Amazon?</span>
         </div>
         <Link to="/register">

@@ -8,7 +8,7 @@ const Features = () => (
       <h2>Discover Amazon</h2>
       <div className="features__grid">
         {FEATURES.map((f) => (
-          <Feature title={f.title} imageURL={f.imageURL} key={f.id} />
+          <Feature title={f.title} icon={f.icon} key={f.id} />
         ))}
       </div>
     </div>
