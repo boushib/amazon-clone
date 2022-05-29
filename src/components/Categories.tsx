@@ -1,8 +1,8 @@
 import CategoryCard from './CategoryCard'
 import { CATEGORIES } from '../constants'
-import './Categories.scss'
+import './Categories.sass'
 
-const Categories: React.FC = () => (
+const Categories = () => (
   <div className="container">
     <div className="categories">
       <div className="categories__grid">

@@ -1,8 +1,12 @@
-import './CategoryCard.scss'
+import './CategoryCard.sass'
 
-type Props = { id: string; title: string; imageURL: string }
+interface Props {
+  id: string
+  title: string
+  imageURL: string
+}
 
-const CatgeoryCard: React.FC<Props> = ({ title, imageURL }) => (
+const CatgeoryCard = ({ title, imageURL }: Props) => (
   <div className="category-card">
     <h2>{title}</h2>
     <div

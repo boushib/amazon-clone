@@ -1,14 +1,17 @@
-import './Suggestions.scss'
+import './Suggestions.sass'
 
-type Props = { title: string; products: { id: string; imageURL: string }[] }
+interface Props {
+  title: string
+  products: { id: string; imageURL: string }[]
+}
 
-const Suggestions: React.FC<Props> = ({ title, products }) => (
+const Suggestions = ({ title, products }: Props) => (
   <div className="container">
     <div className="suggestions">
       <h2>{title}</h2>
       <div className="suggestions__grid">
         {products.map((p) => (
-          <img className="product__image" src={p.imageURL} key={p.id} />
+          <img className="product__image" src={p.imageURL} alt="" key={p.id} />
         ))}
       </div>
     </div>

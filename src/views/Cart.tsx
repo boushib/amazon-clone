@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
-import './Cart.scss'
+import './Cart.sass'
 
-const Cart: React.FC = () => (
+const Cart = () => (
   <div className="cart page">
     <div className="container">
       <div className="cart__products">

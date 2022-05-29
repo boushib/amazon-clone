@@ -1,9 +1,8 @@
 import Feature from './Feature'
 import { FEATURES } from '../constants'
+import './Features.sass'
 
-import './Features.scss'
-
-const Features: React.FC = () => (
+const Features = () => (
   <div className="container">
     <div className="features">
       <h2>Discover Amazon</h2>

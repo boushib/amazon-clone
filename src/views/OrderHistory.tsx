@@ -1,6 +1,6 @@
-import './OrderHistory.scss'
+import './OrderHistory.sass'
 
-const OrderHistory: React.FC = () => (
+const OrderHistory = () => (
   <div className="order-history page">
     <div className="container">
       <h1>Your orders</h1>

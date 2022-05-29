@@ -1,4 +1,4 @@
-import './Hero.scss'
+import './Hero.sass'
 
 const Hero = () => <div className="hero"></div>
 

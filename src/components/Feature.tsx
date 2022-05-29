@@ -1,9 +1,11 @@
-import LanguageIcon from '../assets/images/language.svg'
-import './Feature.scss'
+import './Feature.sass'
 
-type Props = { title: string; imageURL: string }
+interface Props {
+  title: string
+  imageURL: string
+}
 
-const Feature: React.FC<Props> = ({ title, imageURL }) => (
+const Feature = ({ title, imageURL }: Props) => (
   <div className="feature">
     <div className="feature__image">
       <img src={imageURL} alt="" />

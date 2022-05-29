@@ -1,11 +1,12 @@
 import { useState } from 'react'
-import './Checkout.scss'
+import './Checkout.sass'
 
-const Checkout: React.FC = () => {
+const Checkout = () => {
   const [currentStep, setCurrentStep] = useState(0)
   const submitForm = () => {
     console.log('Submitting form..')
   }
+
   return (
     <div className="checkout page">
       <div className="container">

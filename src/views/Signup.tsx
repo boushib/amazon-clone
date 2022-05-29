@@ -1,14 +1,13 @@
 import { Link } from 'react-router-dom'
-import Logo from '../assets/images/logo_black.svg'
+import Logo from '../components/Logo'
+import './Signup.sass'
 
-import './Signup.scss'
-
-const Signup: React.FC = () => {
+const Signup = () => {
   return (
     <div className="signup page">
       <div className="container">
         <div className="signup__card">
-          <img src={Logo} alt="" className="logo" />
+          <Logo className="logo" />
           <form className="signup__form">
             <h1>Create Account</h1>
             <label htmlFor="name">Your name</label>
@@ -22,8 +21,8 @@ const Signup: React.FC = () => {
             <button className="btn">Continue</button>
             <div className="signup__legal">
               By creating an account, you agree to Amazon's{' '}
-              <a href="#">Conditions of Use</a> and{' '}
-              <a href="#">Privacy Notice</a>.
+              <a href="##">Conditions of Use</a> and{' '}
+              <a href="##">Privacy Notice</a>.
             </div>
             <hr />
             <div className="signup__link">
