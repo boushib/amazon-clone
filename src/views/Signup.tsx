@@ -8,7 +8,7 @@ const Signup = () => {
         <div className="auth__card">
           <Logo className="logo" />
           <form className="auth__form">
-            <h1>Create Account</h1>
+            <h1 className="auth__title">Create Account</h1>
             <label htmlFor="name">Your name</label>
             <input type="text" id="name" />
             <label htmlFor="email">Email</label>

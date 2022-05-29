@@ -1,5 +1,7 @@
 @import './sass/grid'
 @import './sass/auth'
+@import './sass/form'
+@import './sass/typography'
 
 *
   box-sizing: border-box
@@ -7,7 +9,7 @@
 
 \:root
   --color-dark: #19222f
-  --color-orange: #e4a149
+  --color-orange: #e9aa58
 
 body
   background-color: #fff
@@ -26,20 +28,6 @@ hr
   padding-bottom: 48px
   margin-top: 60px
 
-.btn
-  border: 1px solid #a88734
-  outline: none
-  color: #333c47
-  padding: 10px 18px
-  cursor: pointer
-  border-radius: 2px
-  font-weight: 600
-  background: linear-gradient(to bottom, #f7dfa5, #f0c14b)
-  box-shadow: 0 1px 0 rgba(#fff, 0.6) inset
-  &.secondary
-    background: linear-gradient(to bottom, #f7f8fa, #e7e9ec)
-    border-color: #adb1b8
-
 ul
   list-style-type: none
   padding: 0
@@ -47,22 +35,3 @@ ul
 
 a
   text-decoration: none
-
-label
-  display: block
-  font-size: 14px
-  font-weight: 500
-  margin-bottom: 8px
-
-input[type='text'],
-select
-  height: 34px
-  padding: 4px 16px
-  width: 100%
-  border: 1px solid #ddd
-  outline: none
-  color: #222
-  border: 1px solid #a6a6a6
-  border-radius: 2px
-  box-shadow: 0 1px 0 rgba(#fff, 0.5), 0 1px 0 rgba(#000, 0.07) inset
-  margin-bottom: 14px

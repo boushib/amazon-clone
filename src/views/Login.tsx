@@ -7,9 +7,9 @@ const Login = () => (
       <div className="auth__card">
         <Logo className="logo" />
         <form className="auth__form">
-          <h1>Login</h1>
+          <h1 className="auth__title">Login</h1>
           <label htmlFor="email">Email or mobile phone number</label>
-          <input type="text" id="email" />
+          <input type="text" placeholder="Email Address" id="email" />
           <button className="btn">Continue</button>
           <div className="auth__legal">
             By continuing, you agree to Amazon's{' '}
