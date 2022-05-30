@@ -18,10 +18,16 @@ export const CATEGORIES = [
       'https://images.unsplash.com/photo-1562851529-c370841f6536?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80',
   },
   {
+    id: 'be59236e-ce8c-43c5-9f82-5b6eb85e1ca9',
+    title: 'Home Accessories',
+    imageURL:
+      'https://images.unsplash.com/photo-1562663474-6cbb3eaa4d14?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80',
+  },
+  {
     id: '8b96cb94-c606-4c73-9d2c-4565a36ce7d3',
     title: "Men's Fashion",
     imageURL:
-      'https://images.unsplash.com/photo-1520975867597-0af37a22e31e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80',
+      'https://images.unsplash.com/photo-1572708609354-e4b4bdfe5a93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80',
   },
 ]
 

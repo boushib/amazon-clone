@@ -7,15 +7,12 @@ interface Props {
 }
 
 const CatgeoryCard = ({ title, imageURL }: Props) => (
-  <div className="category-card">
+  <div
+    className="category-card"
+    style={{ backgroundImage: `url("${imageURL}")` }}
+  >
     <h2 className="category-card__title">{title}</h2>
-    <img
-      src={imageURL}
-      className="category-card__image"
-      loading="lazy"
-      alt=""
-    />
-    <button className="btn">Shop Now</button>
+    {/* <button className="btn">Shop Now</button> */}
   </div>
 )
 
