@@ -29,6 +29,12 @@ export const CATEGORIES = [
     imageURL:
       'https://images.unsplash.com/photo-1572708609354-e4b4bdfe5a93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80',
   },
+  {
+    id: '289f8c98-0bb3-4f1e-b294-11515c486372',
+    title: 'Photography',
+    imageURL:
+      'https://images.unsplash.com/photo-1619328264080-2e7a8bde5d02?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=927&q=80',
+  },
 ]
 
 export const FEATURES = [
