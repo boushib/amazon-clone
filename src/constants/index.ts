@@ -93,6 +93,29 @@ export const SUGGESTIONS_BASED_ON_BROWSING_HISTORY = [
   },
 ]
 
+export const RELATED_TO_VIEWED = [
+  {
+    id: 'c204b8f1-b99a-42c9-ab8f-5d622d13386b',
+    imageURL: 'https://m.media-amazon.com/images/I/61Lxq7wMOYL._AC_SY400_.jpg',
+  },
+  {
+    id: 'a0141083-dd71-4bc0-9502-9ee691e328ed',
+    imageURL: 'https://m.media-amazon.com/images/I/51Jf2Ru7cjL._AC_SY400_.jpg',
+  },
+  {
+    id: '31c11899-a1c6-4133-ab88-e3e5349af938',
+    imageURL: 'https://m.media-amazon.com/images/I/51osm6MdkoL._AC_SY400_.jpg',
+  },
+  {
+    id: '22fc9237-3220-43df-83f6-d90cb66f85c8',
+    imageURL: 'https://m.media-amazon.com/images/I/51xfgfLwuyL._AC_SY400_.jpg',
+  },
+  {
+    id: '105664ee-44e2-4820-a749-669a9d618d93',
+    imageURL: 'https://m.media-amazon.com/images/I/51MaixnNhAL._AC_SY400_.jpg',
+  },
+]
+
 export const SUGGESTIONS_BASED_ON_SHOPPING_TRENDS = [
   {
     id: '3d950c43-e3db-4a70-9704-b031f1ad2e31',
