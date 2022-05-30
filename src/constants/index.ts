@@ -109,3 +109,25 @@ export const SUGGESTIONS_BASED_ON_SHOPPING_TRENDS = [
     imageURL: 'https://m.media-amazon.com/images/I/71Kkm5nIRKL._AC_SY400_.jpg',
   },
 ]
+
+export const CART_ITEMS = [
+  {
+    id: 100,
+    image:
+      'https://images-na.ssl-images-amazon.com/images/I/71DnJGlQO2L._AC_UL405_SR405,405_.jpg',
+    title:
+      'Huion Inspiroy H1060P Graphics Drawing Tablet with Tilt Response Battery-Free Stylus and 8192 Pen Pressure Sensitivity',
+    inStock: true,
+    quantity: 1,
+    price: 60,
+  },
+  {
+    id: 101,
+    image: 'https://m.media-amazon.com/images/I/61Lxq7wMOYL._AC_SX679_.jpg',
+    title:
+      'Pwnage Ultra Custom Wireless Ergo - Black Ultra Lightweight Honeycomb Design Gaming Mouse 3335 Sensor - PTFE Skates - 6 Buttons - Custom Weight 69G',
+    inStock: true,
+    quantity: 2,
+    price: 59.99,
+  },
+]
