@@ -12,7 +12,6 @@ const CatgeoryCard = ({ title, imageURL }: Props) => (
     style={{ backgroundImage: `url("${imageURL}")` }}
   >
     <h2 className="category-card__title">{title}</h2>
-    {/* <button className="btn">Shop Now</button> */}
   </div>
 )
 
