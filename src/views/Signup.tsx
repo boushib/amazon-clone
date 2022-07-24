@@ -1,12 +1,10 @@
 import { Link } from 'react-router-dom'
-import Logo from '../components/Logo'
 
 const Signup = () => {
   return (
     <div className="auth page">
       <div className="container">
         <div className="auth__card">
-          <Logo className="logo" />
           <form className="auth__form">
             <h1 className="auth__title">Create Account</h1>
             <label htmlFor="name">Your name</label>

@@ -1,11 +1,9 @@
 import { Link } from 'react-router-dom'
-import Logo from '../components/Logo'
 
 const Login = () => (
   <div className="auth page">
     <div className="container">
       <div className="auth__card">
-        <Logo className="logo" />
         <form className="auth__form">
           <h1 className="auth__title">Login</h1>
           <label htmlFor="email">Email or mobile phone number</label>
